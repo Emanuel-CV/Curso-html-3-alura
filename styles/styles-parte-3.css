@@ -60,20 +60,23 @@ form label, form legend{
     margin: 20px 0;
 }
 
+.enviar-formulario{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s all;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.enviar-formulario:hover{
+    background-color: darkorange;
+    transform: scale(1.2) rotate(360deg);    
+}
 
 .footer{
     text-align: center;
